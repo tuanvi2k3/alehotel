@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.header {
+  background: #343334;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header ul li {
+  padding: 20px;
+}
+
+.header ul li a {
+  color: white;
+}
+
+.header ul li:hover {
+  background-color: red;
+}
+
+.logo {
+  color: white;
+}
+
+.logo .logo-span {
+  color: #edb88b;
+}
+
+.mast {
+  background-image: url("https://cdn.pixabay.com/photo/2023/04/10/11/20/church-7913551_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.image {
+  background: rgb(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.mast-content {
+  text-align: center;
+  width: 70%;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+
+.mast-content h1 {
+  color: white;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.mast-content h1 .en {
+  color: #edb88b;
+}
+
+.mast-content p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-fmc {
+  background-color: #535253;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn-fmc:hover {
+  background-color: #edb88b;
+}
+
+.htr {
+  width: 100%;
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.htr-img {
+  width: 50%;
+}
+
+.htr-img img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.htr-content {
+  width: 50%;
+  text-align: center;
+  padding-top: 150px;
+  background-color: #343334;
+}
+
+.htr-content h1 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.htr-content h1 span {
+  color: #edb88b;
+}
+
+.htr-content p {
+  color: white;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.bnt-light {
+  transition: 0.5s;
+}
+
+.htr-content .bnt-light:hover {
+  background-color: #edb88b;
+}
+
+.great {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.great .graet-box {
+  text-align: center;
+  padding: 50px 0;
+}
+.graet-box i {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.graet-box h1 {
+  padding-bottom: 20px;
+}
+
+#chill {
+  background-color: #edb88b;
+}
+
+.say {
+  background-image: url("https://cdn.pixabay.com/photo/2023/06/17/20/15/lake-8070741_640.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.say-mast {
+  background: rgb(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.say-content {
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+
+.say-content h1 span {
+  color: #edb88b;
+}
+
+.say-content .user {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #edb88b;
+}
+
+.user img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.us {
+  padding: 20px 50px;
+}
+
+.us h1 {
+  padding-bottom: 20px;
+}
+
+.us h1 span {
+  color: #edb88b;
+}
+
+.us p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+.us .submit {
+  background-color: #262526;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s;
+}
+
+textarea {
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 20px 10px;
+  outline: none;
+}
+
+.us .submit:hover {
+  opacity: 0.8;
+  background-color: #edb88b;
+}

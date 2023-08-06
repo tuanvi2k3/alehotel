@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1024px) {
+  .header {
+    display: block;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mast-content {
+    padding-top: 50px;
+  }
+
+  .htr {
+    width: 100%;
+    display: block;
+  }
+
+  .htr-img {
+    width: 100%;
+  }
+  .htr-content {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .great {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .say-content .user {
+    display: block;
+  }
+
+  .say {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+
+  .say-mast {
+    background: rgb(0, 0, 0, 0.3);
+    height: 100%;
+  }
+
+  .textarea {
+    padding: 20px 10px;
+  }
+}
